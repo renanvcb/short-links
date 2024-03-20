@@ -1,0 +1,19 @@
+POST http://localhost:3333/api/links/create
+Content-Type: application/json
+
+{
+  "code": "linkedin",
+  "url": "https://linkedin.com/in/renanvcb"
+}
+
+###
+
+GET http://localhost:3333/api/links/list
+
+###
+
+GET http://localhost:3333/api/metrics
+
+###
+
+GET http://localhost:3333/github
